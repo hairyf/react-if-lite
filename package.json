@@ -1,7 +1,7 @@
 {
   "name": "react-if-lite",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@10.25.0",
   "description": "Lightweight conditional rendering for React (If, Unless, Switch/Case/Default).",
   "author": "hairyf <wwu710632@gmail.com> (https://github.com/hairyf)",

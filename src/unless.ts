@@ -19,7 +19,7 @@ export function Unless<As extends WrapperAs>(props: UnlessProps<As>) {
   const thenChild = elements.find(c => c.type === Then)
   const elseChild = elements.find(c => c.type === Else)
   const child = (thenChild || elseChild)
-    ? !cond ? elseChild : thenChild
+    ? !cond ? thenChild : elseChild
     : !cond ? children : _else
   return wrapper(as, rest, child)
 }
